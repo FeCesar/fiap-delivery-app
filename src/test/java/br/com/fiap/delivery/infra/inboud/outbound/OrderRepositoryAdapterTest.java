@@ -73,7 +73,7 @@ public class OrderRepositoryAdapterTest {
 
         OrderDomain initialOrder = new OrderDomain(orderId, initialCustomerName, creationAt, initialPrice, initialStatus, null);
         OrderEntity initialEntity = new OrderEntity(orderId, initialCustomerName, creationAt, initialPrice, initialStatus, null);
-        OrderEntity updatedEntity = new OrderEntity(orderId, updatedCustomerName, creationAt, updatedPrice, updatedStatus, null);
+        OrderEntity updatedEntity = new OrderEntity(orderId, updatedCustomerName, creationAt, updatedPrice, updatedStatus, null) ;
 
         when(orderRepository.save(initialEntity)).thenReturn(updatedEntity);
 
