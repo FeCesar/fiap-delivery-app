@@ -18,6 +18,9 @@
 
 Este projeto foi desenvolvido durante o **Tech Challenge** oferecido pela [FIAP] como parte do curso de Arquitetura de Software.
 
+**Fluxo**
+![fluxo.png](/fluxo.png)
+
 ## ⚙️ Funcionalidades
 
 - [x] Validação de credenciais de clientes
